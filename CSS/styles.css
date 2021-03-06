@@ -1,0 +1,170 @@
+/* 
+	Body Text: font-family: 'Nunito', sans-serif;
+	Nav Title: font-family: 'Pacifico', cursive; 
+	Title: font-family: 'Montserrat', sans-serif;
+*/
+html { height: 100% }
+
+
+/* NavBar Section */
+.nav-custom .navbar-brand{
+	font-family: 'Pacifico', cursive; 
+	color: #fdc300;
+	padding-left: 20px;
+	font-size: 1.5rem;
+	line-height: 2.5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ff9d01;
+    font-family: 'Nunito', sans-serif;
+    padding-right: 20px;
+}
+.navbar-brand .nav-logo {
+	height: 3rem;
+	border-radius: 55%;
+}
+
+/* Introduction Section */
+.intro-image {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+}
+
+.intro-text {
+	color: #ff9d01;
+	padding: 20% 7% 15%;
+	font-family: 'Montserrat', sans-serif;		
+}
+
+.intro-text h1{
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/* About Section */
+.about-sec {
+	background-color: #faf5ef;
+}
+
+.yellow-background {
+	background-color: #fdc300;
+	width: 5%;
+	padding: 0;
+}
+
+.about-image {
+	width: 600px;
+	height: 500px;
+}
+
+#about .col {
+	padding-left: 0px;
+}
+
+#about .about-text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900px;
+	padding: 10% 6% 7%;
+}
+
+.golden-rule {
+	border-top: 6px solid #fdc300;
+}
+
+/* Committee Section */
+#committee-section {
+	background-color: #1f2c30;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#committee-section h3{
+	color: #fdc300;
+}
+
+#committee-section p{
+	margin: 5% auto 2%;
+	color: #fff;
+	width: 60%;
+}
+
+.committee-image {
+	width: 300px;
+	height: 270px;
+}
+
+.committees {
+	padding: 6% 3% 8%; 
+}
+
+/* Project Section */
+#project-overview {
+	padding: 5% 3% 2%;
+	background-color: #faf5ef;
+	text-align: center;
+}
+
+.project-overview-image {
+	width: 70%;
+	padding: 40px 0;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-title {
+	color: #fdc300;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	padding: 10% auto;
+}
+
+.project-presenter {
+	padding: 40px auto 0;
+}
+
+/* Footer */
+#footer {
+	text-align: center;
+	background-color: #ff9d01;
+	padding: 10px 0;
+}
+
+.footer-icon {
+	padding: 3% 1% 1%;
+}
+
+
+
+/* Member board section */
+/* Committee Section */
+#board-section {
+	background-color: #faf5ef;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 6% 8% 8%;
+}
+
+.board-icons {
+	padding: 4%;
+}
+
+
+.listing {
+	background-color: #faf5ef;
+	font-family: 'Montserrat', sans-serif;
+	padding: 6% 8% 8%;
+}
+
+.anchor {
+	text-decoration: none;
+	text-align:center;
+}
