@@ -40,8 +40,24 @@ html { height: 100% }
 
 .intro-text h1{
 	font-weight: 900;
-	font-size: 3.5rem;
+	font-size: 300%;
 	line-height: 1.5;
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro-text h1 {
+		font-weight: 900;
+		font-size: 30px;
+		line-height: 1.5;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-text h1 {
+		font-weight: 900;
+		font-size: 20px;
+		line-height: 1.5;
+	}
 }
 
 /* About Section */
