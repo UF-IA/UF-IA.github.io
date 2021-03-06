@@ -26,19 +26,11 @@ html { height: 100% }
 }
 
 @media only screen and (max-width: 600px) {
-  .intro-text h1 {
-		font-weight: 900;
-		font-size: 16px;
-		line-height: 1.5;
-	}
-}
-
-/* Introduction Section */
-.intro-image {
+	/* Introduction Section */
 	.navbar-brand .nav-logo {
-	height: 1rem;
-	border-radius: 55%;
-}
+		height: 1.5rem;
+		border-radius: 55%;
+	}
 }
 
 .intro-text {
