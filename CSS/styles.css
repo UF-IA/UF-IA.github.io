@@ -9,6 +9,7 @@ html { height: 100% }
 /* NavBar Section */
 .nav-custom .navbar-brand{
 	font-family: 'Pacifico', cursive; 
+	font-family: 'Nunito', sans-serif;
 	color: #fdc300;
 	padding-left: 20px;
 	font-size: 1.5rem;
@@ -23,6 +24,7 @@ html { height: 100% }
 .navbar-brand .nav-logo {
 	height: 3rem;
 	border-radius: 55%;
+	padding-right: 5px;
 }
 
 /* Introduction Section */
@@ -42,6 +44,7 @@ html { height: 100% }
 	font-weight: 900;
 	font-size: 300%;
 	line-height: 1.5;
+	text-shadow: 2px 2px black;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -77,8 +80,8 @@ html { height: 100% }
 }
 
 .about-image {
-	width: 600px;
-	height: 500px;
+	width: 100%;
+	height: 100%;
 }
 
 #about .col {
@@ -188,4 +191,14 @@ html { height: 100% }
 .anchor {
 	text-decoration: none;
 	text-align:center;
+}
+
+.contact-info i{
+	padding: 4% 10%;
+	color: #ff9d01;
+}
+
+
+.contact-info i :hover{
+	color: red;
 }
